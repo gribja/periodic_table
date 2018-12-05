@@ -3,9 +3,17 @@ var cache_name = 'v1';
 var paths = [
   'index.html',
   'style.css',
-  'js/',
+  'js/build/three.min.js',
+  'js/libs/tween.min.js',
+  'js/renderers/CSS3DRenderer.js',
+  'js/controls/TrackballControls.js',
   'manifest.json',
-  'images/'
+  'images/i48.png',
+  'images/i96.png',
+  'images/i144.png',
+  'images/i192.png',
+  'images/i256.png',
+  'images/i512.png'
 ];
 
 self.addEventListener( 'install', function ( event ) {
